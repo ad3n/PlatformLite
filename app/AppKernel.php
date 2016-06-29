@@ -27,12 +27,6 @@ class AppKernel extends Kernel
             //Cache and Session Management
             new Snc\RedisBundle\SncRedisBundle(),
 
-            //Api Management
-            new JMS\SerializerBundle\JMSSerializerBundle(),
-            new FOS\RestBundle\FOSRestBundle(),
-            new Bazinga\Bundle\HateoasBundle\BazingaHateoasBundle(),
-            new Nelmio\ApiDocBundle\NelmioApiDocBundle(),
-
             //Data Initialization
             new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
 
