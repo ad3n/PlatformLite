@@ -1,11 +1,6 @@
 assetic:
     bundles: ['AppBundle', 'SymfonyIdAdminBundle', 'FOSUserBundle']
-    node: '/usr/bin/nodejs' #change to your path
     filters:
-        less:
-            node: /usr/local/bin/node
-            node_paths: [/usr/local/lib/node_modules]
-            apply_to: '\.less$'
         cssrewrite:
             apply_to: '\.css$'
         uglifyjs2:
