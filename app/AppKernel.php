@@ -28,6 +28,9 @@ class AppKernel extends Kernel
             //Cache and Session Management
             new Snc\RedisBundle\SncRedisBundle(),
 
+            //Form Flow
+            new Craue\FormFlowBundle\CraueFormFlowBundle(),
+
             //Data Initialization
             new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
 
